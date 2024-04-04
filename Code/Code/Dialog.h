@@ -99,7 +99,8 @@ private:
 			{
 				cout << "Выберите, какой объект вы хотите добавить. 1 - печатное издание, 2 - полноценная книга!" << endl;
 				cin >> number;
-			} while (number != 1 && number != 2);
+			} 
+			while (number != 1 && number != 2);
 
 			cin.ignore();
 
